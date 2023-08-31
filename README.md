@@ -1,59 +1,37 @@
 # Data-Structures-and-Algorithms.
 
-Welcome to the Code Functions and Testing project! This repository contains Python implementations of three functions for various data manipulation tasks.
+This repository contains Python implementations of three functions for various data manipulation tasks.
+
 
 ## Functions
+This project includes implementations of the following functions:
 
-1. is_balanced
+- is_balanced: Checks if a given expression with parentheses, curly braces, and square brackets is balanced.
 
-This function checks if a given expression with parentheses, curly braces, and square brackets is balanced.
+- remove_duplicates: Removes duplicate elements from a sequence (list or tuple) while preserving their original order.
 
-Example usage:
-
-```python
-expression1 = "([]{})"
-expression2 = "([)]"
-print(is_balanced(expression1))  
-print(is_balanced(expression2))  
-
-
-2. remove_duplicates
-
-This function removes duplicate elements from a sequence (list or tuple) while preserving their original order.
-
-Example usage:
-input_sequence = [2, 3, 2, 4, 5, 3, 6, 7, 5]
-result = remove_duplicates(input_sequence)
-print(result)  
-
-3. word_frequency
-
-This function calculates the frequency of words in a sentence while ignoring punctuation and being case-insensitive.
-
-Example usage:
-sentence = "This is a test sentence. This sentence is a test."
-result = word_frequency(sentence)
-print(result)
+- word_frequency: Calculates the frequency of words in a sentence while ignoring punctuation and being case-insensitive.
 
 ## Getting Started
-Clone this repository to your local machine.
+Follow these steps to get started with the project:
 
-Ensure you have Python installed.
+1. Clone this repository to your local machine.
+         `git@github.com:annndiga/Data-Structures-and-Algorithms.git `
+
+2. Install the required dependencies:
             `pipenv install`
             `pipenv shell`
 
-Open a terminal or command prompt and navigate to the project directory.
-          
 
-Run the following command to execute the test script:
+3. Open a terminal or command prompt and navigate to the project directory.
+            `/Data Structures and Algorithms/lib`
 
-              `python main.py`
+Run the provided test script to see the functions in action.
+            `python main.py`
 
+Contributions
+Contributions to this project are welcome! If you find issues or want to enhance the functions, feel free to open a pull request.
 
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contributions
-
-Contributions are welcome! If you find issues or want to enhance the functions, feel free to open a pull request.
-
-# License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.cd lib
