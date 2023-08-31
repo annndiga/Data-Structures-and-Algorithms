@@ -29,9 +29,9 @@ Follow these steps to get started with the project:
 Run the provided test script to see the functions in action.
             `python main.py`
 
-Contributions
+## Contributions
 Contributions to this project are welcome! If you find issues or want to enhance the functions, feel free to open a pull request.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
