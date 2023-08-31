@@ -1,7 +1,7 @@
 import string
-from stacks import is_balanced
-from sequences import remove_duplicates
-from dictionaries import word_frequency
+from Data.stacks import is_balanced
+from Data.sequences import remove_duplicates
+from Data.dictionaries import word_frequency
 
 def main():
     

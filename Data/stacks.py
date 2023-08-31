@@ -11,5 +11,3 @@ def is_balanced(expression):
             stack.pop()
 
     return not stack
-
-
